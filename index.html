@@ -249,13 +249,13 @@ footer .ar-sm { font-family: var(--arabic); }
 
     <p class="lede">Cybersecurity, computer vision and embedded systems. I build working systems end to end.</p>
 
-    <p class="intro">BS in Computer Science, Cybersecurity track, from the American University of Kuwait (2026). Builder of <em>A-LISTM</em>, a real-time traffic violation detection system running four YOLOv8 models. Cohort 2 participant in the Huawei x KFAS Future Tech Program, Kuwait and Shenzhen.</p>
+    <p class="intro">BS in Computer Science, Cybersecurity track, from the American University of Kuwait (2026). Builder of <em>A-LISTM</em>, a real-time traffic violation detection system running four YOLOv8 models. Completed the Huawei x KFAS Future Tech Program (Cohort 2) in Kuwait and Shenzhen.</p>
 
     <div class="actions">
       <a class="btn" href="khaled-al-qattan.vcf" download="Khaled Al-Qattan.vcf">Save my contact</a>
       <a class="btn ghost" href="mailto:khaledalqattan03@gmail.com">Email me</a>
     </div>
-    <div class="note">Adds my name, email and this card to your phone’s contacts.</div>
+    <div class="note">Adds my name, number, email and LinkedIn to your phone’s contacts.</div>
   </header>
 
   <section aria-labelledby="h-reach">
@@ -265,6 +265,16 @@ footer .ar-sm { font-family: var(--arabic); }
         <span class="k">Email</span>
         <a class="v" href="mailto:khaledalqattan03@gmail.com">khaledalqattan03@gmail.com</a>
         <button class="copy" type="button" data-copy="khaledalqattan03@gmail.com">Copy</button>
+      </li>
+      <li>
+        <span class="k">Phone</span>
+        <a class="v" href="tel:+96555733522">+965 5573 3522</a>
+        <button class="copy" type="button" data-copy="+96555733522" data-label="Number copied">Copy</button>
+      </li>
+      <li>
+        <span class="k">LinkedIn</span>
+        <a class="v" href="https://www.linkedin.com/in/khaled-al-qattan" target="_blank" rel="noopener">linkedin.com/in/khaled-al-qattan</a>
+        <span></span>
       </li>
       <li>
         <span class="k">Based in</span>
@@ -314,10 +324,10 @@ footer .ar-sm { font-family: var(--arabic); }
     <h2 id="h-prog">Programmes</h2>
     <div class="entry">
       <h3>Huawei x KFAS Future Tech Program, Cohort 2</h3>
-      <div class="meta">Kuwait &amp; Shenzhen, China · 2026</div>
+      <div class="meta">Kuwait &amp; Shenzhen, China · 2026 · Completed with certificate</div>
       <ul>
         <li>Selected for a training programme run by Huawei and the Kuwait Foundation for the Advancement of Sciences, with a lab phase in Shenzhen.</li>
-        <li>Presenting <strong>Dukkan</strong>, a team AI business workspace, in China. My part covers target users, differentiation, why AI, Kuwait data and the live demo.</li>
+        <li>Presented <strong>Dukkan</strong>, a team AI business workspace, in China. My part covered target users, differentiation, why AI, Kuwait data and the live demo.</li>
         <li>Led the AI and technology section of a team pitch for an AI hospital queue tracker inside a Ministry of Health app.</li>
         <li>Evaluated the Sheikh Abdullah Al Salem Cultural Centre visitor experience with my team and proposed improvements across seven themes.</li>
       </ul>
@@ -368,7 +378,7 @@ footer .ar-sm { font-family: var(--arabic); }
     <div class="langs">
       <div class="lang"><b>Arabic</b><span>Native</span><div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
       <div class="lang"><b>English</b><span>Fluent</span><div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
-      <div class="lang"><b>Japanese</b><span>Learning</span><div class="meter" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div></div>
+      <div class="lang"><b>Japanese</b><span>Limited working</span><div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
     </div>
   </section>
 
@@ -414,7 +424,7 @@ footer .ar-sm { font-family: var(--arabic); }
     } else { fallback(text); }
   }
   document.querySelectorAll('[data-copy]').forEach(function (b) {
-    b.addEventListener('click', function () { copy(b.getAttribute('data-copy'), 'Email copied'); });
+    b.addEventListener('click', function () { copy(b.getAttribute('data-copy'), b.getAttribute('data-label') || 'Email copied'); });
   });
   var ca=document.getElementById('copy-all'); ca && ca.addEventListener('click', function () {
     copy([

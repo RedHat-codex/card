@@ -3,8 +3,12 @@ VERSION:3.0
 N:Al-Qattan;Khaled;;;
 FN:Khaled Al-Qattan
 TITLE:Cybersecurity · Computer Vision · Embedded Systems
+TEL;TYPE=CELL,VOICE:+96555733522
 EMAIL;TYPE=INTERNET,PREF:khaledalqattan03@gmail.com
 URL:https://redhat-codex.github.io/card/
+item1.URL:https://www.linkedin.com/in/khaled-al-qattan
+item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/khaled-al-qattan
 ADR;TYPE=HOME:;;Bayan;;;;Kuwait
 NOTE:BS Computer Science (Cybersecurity)\, American University of Kuwait. Huawei x KFAS Future Tech Program\, Cohort 2.
 END:VCARD

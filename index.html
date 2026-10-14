@@ -8,6 +8,7 @@
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Khaled Al-Qattan · Card">
 <meta property="og:description" content="Cybersecurity, computer vision and embedded systems. Builder of A-LISTM, a real-time traffic violation detection system.">
+<meta property="og:image" content="https://redhat-codex.github.io/card/khaled.jpg">
 <meta property="og:url" content="https://redhat-codex.github.io/card/">
 <meta name="theme-color" content="#eef1f4" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d121a" media="(prefers-color-scheme: dark)">
@@ -93,11 +94,12 @@ a:hover { text-decoration-thickness: 2px; }
 .hero { display: flex; flex-direction: column; gap: 20px; }
 .top { display: flex; align-items: center; gap: 18px; }
 .mono-mark {
-  width: 84px; height: 84px; flex: none;
+  width: 96px; height: 96px; flex: none;
   display: grid; place-items: center;
   font-family: var(--display); font-weight: 700; font-size: 30px; letter-spacing: 0.02em;
   color: var(--accent);
 }
+.mono-mark img { width: 80px; height: 80px; object-fit: cover; border-radius: 4px; display: block; }
 .mono-mark span {
   width: 68px; height: 68px; display: grid; place-items: center;
   background: var(--chip); border-radius: 4px;
@@ -238,7 +240,7 @@ footer .ar-sm { font-family: var(--arabic); }
 
   <header class="hero">
     <div class="top">
-      <div class="mono-mark box" aria-hidden="true"><span>KQ</span></div>
+      <div class="mono-mark box"><img src="khaled.jpg" alt="Khaled Al-Qattan" width="80" height="80"></div>
       <div class="eyebrow">Card · <b>Bayan, Kuwait</b></div>
     </div>
 
